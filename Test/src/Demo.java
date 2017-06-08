@@ -15,6 +15,8 @@ public class Demo {
 	public String demoget(@PathParam("age") int age, @QueryParam("boolabc") boolean abc , @HeaderParam("Host") String client)
 	{
 		System.out.println("Hello");
+		System.out.println("Hello People");
+		
 		return "Hello Shoveet ur age is " +age + "and u r " + abc + "Client is " +client;
 	}
 }
